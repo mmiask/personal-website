@@ -6,7 +6,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render((
-  <Router basename={process.env.PUBLIC_URL}>
+  <Router basename="https://mmiask.github.io">
     <App />
   </Router>),
   document.getElementById('root')
